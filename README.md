@@ -9,6 +9,7 @@ The current version of this module supports the integrating with Salesforce via 
 * Query Account Opportunities
 * Query Account Tasks (Activities)
 * Create Account Tasks (Activities)
+* Create Account Contacts
 
 # Getting Started
 
