@@ -4,6 +4,7 @@ The current version of this module supports the integrating with Salesforce via 
 
 * Login
 * Logout
+* Query Account
 * Query Accounts
 * Query Account Contacts
 * Query Account Opportunities
@@ -13,7 +14,7 @@ The current version of this module supports the integrating with Salesforce via 
 # Getting Started
 
 * The *Salesforce Connector* module can be downloaded from within the Mendix Business Modeler via the Mendix App Store
-* The module requires version 5.9.0+ of the Mendix Business Modeler
+* The module requires version 5.10.0+ of the Mendix Business Modeler
 
 # Configuration
 
@@ -30,8 +31,8 @@ To obtain a list of your Accounts within Salesforce, you can simply source a Dat
 
 * Drop a Data grid on your page
 * Set the following Data source properties:
-* `Type` - Microflow
-* `Microflow` - QueryAccounts
+  * `Type` - Microflow
+  * `Microflow` - QueryAccounts
 
 Note: The default QueryAccounts Microflow will only obtain the first 10 Accounts from Salesforce. Please refer to the Example Usage - Extending section to learn how to query other fields and additional records.
 
