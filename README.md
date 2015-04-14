@@ -15,7 +15,7 @@ The current version of this module supports the integrating with Salesforce via 
 # Getting Started
 
 * The *Salesforce Connector* module can be downloaded from within the Mendix Business Modeler via the Mendix App Store
-* The module requires version 5.10.0+ of the Mendix Business Modeler
+* The module requires version 5.9.0+ of the Mendix Business Modeler
 
 # Configuration
 
